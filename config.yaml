@@ -13,5 +13,3 @@ livePreviewConfiguration:
 # name here.
 authentication:
  policyName: policy1
- includePaths:
-   - /admin/*
