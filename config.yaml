@@ -12,4 +12,4 @@ livePreviewConfiguration:
 # the authentication policy via the admin console and then specify the policy
 # name here.
 authentication:
- policyName: policy1
+ policyName: policy2
