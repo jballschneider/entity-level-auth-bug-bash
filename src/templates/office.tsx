@@ -96,7 +96,7 @@ const EntityPage: Template<TemplateRenderProps> = ({
     <>
       <h1>{name}</h1>
       <Address address={address}></Address>
-      <LexicalRichText serializedAST={JSON.stringify(c_secureRTF.json)} />
+      {c_secureRTF && c_secureRTF.json && <LexicalRichText serializedAST={JSON.stringify(c_secureRTF.json)} />}
     </>
   );
 };
